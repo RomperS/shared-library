@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: shared-library
+
+jwt:
+  secret:
+    key: ${AUTH_SECRET_KEY}
